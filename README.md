@@ -5,7 +5,7 @@
 
 BoloAI is a voice-first Agentic AI assistant built for Bharat. Users can speak naturally in Hindi, Hinglish, or English, and BoloAI can understand the request, reason about it, use tools, verify information, perform permitted actions, remember conversational context, and reply back through voice and text.
 
-**[Live demo](https://boloai-web.onrender.com/) · [Source code](https://github.com/rajsalonia/BoloAI) · [Setup](#quickstart--setup) · [Integration status](#truthful-provider-status)**
+**[Live demo](https://boloai-web.onrender.com/) · [Source code](https://github.com/rajsalonia/BoloAI) · [Setup](#quickstart--setup) · [Integration status](#truthful-provider-status) · [Contributing](CONTRIBUTING.md)**
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?logo=fastapi&logoColor=white) ![Agentic AI](https://img.shields.io/badge/AI-Tool_Orchestration-5B21B6)
 
