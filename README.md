@@ -5,7 +5,7 @@
 
 BoloAI is a voice-first Agentic AI assistant built for Bharat. Users can speak naturally in Hindi, Hinglish, or English, and BoloAI can understand the request, reason about it, use tools, verify information, perform permitted actions, remember conversational context, and reply back through voice and text.
 
-🌐 **Live Demo:** https://boloai-web.onrender.com/
+🌐 **Hosted application URL (availability not independently verified):** https://boloai-web.onrender.com/
 
 ## What BoloAI can do
 
@@ -172,7 +172,7 @@ Test these in the UI via the **1-Click Demo Buttons** or by typing in the simula
 ### 1. Clone & Install Dependencies
 
 ```bash
-git clone https://github.com/17rajsal/BoloAI.git
+git clone https://github.com/rajsalonia/BoloAI.git
 cd BoloAI
 
 # Create virtual environment
@@ -255,3 +255,14 @@ To run a live phone call test when Exotel credentials are configured:
 6. BoloAI answers over the telephone in natural speech.
 
 *Note: In environments without active Exotel telephony credentials, the complete code path and audio streaming framing are fully verified via automated tests and mock doubles (`CODE PATH VERIFIED — LIVE PROVIDER TEST PENDING`).*
+
+
+---
+
+## Implementation and verification notes
+
+- **Audience:** Hindi, Hinglish, and English speakers exploring voice-first access to information and assisted workflows.
+- **Backend:** FastAPI with configurable speech, language model, search, and telephony providers; see `.env.example` for settings.
+- **Provider behavior:** Without the relevant credentials, mock, curated, or fallback responses should not be mistaken for live provider integration.
+- **Local verification:** `python -m pytest -v`, `python -m evals.runner`, and `python scripts/run_demo_tests.py` are documented test commands. Results in the existing README are historical reports, not freshly executed results in this documentation review.
+- **Deployment:** An existing Render URL is listed above, but HTTP reachability and end-to-end voice/telephony functionality were not independently confirmed here.
