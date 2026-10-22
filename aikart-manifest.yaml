@@ -8,7 +8,7 @@ metadata:
 
 runtime:
   type: docker
-  image: "ghcr.io/17rajsal/boloai:aikart-v1"
+  image: "ghcr.io/rajsalonia/boloai:aikart-v1"
   command: ["python", "aikart_runner.py"]
 
 resources:

@@ -3,8 +3,8 @@ services:
   - name: boloai-web
     type: web
     git:
-      repository: github.com/17rajsal/BoloAI
-      branch: antigravity/final-demo
+      repository: github.com/rajsalonia/BoloAI
+      branch: main
       build_command: ""
       run_command: uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-8000}
     ports:
