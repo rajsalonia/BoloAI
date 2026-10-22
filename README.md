@@ -5,7 +5,12 @@
 
 BoloAI is a voice-first Agentic AI assistant built for Bharat. Users can speak naturally in Hindi, Hinglish, or English, and BoloAI can understand the request, reason about it, use tools, verify information, perform permitted actions, remember conversational context, and reply back through voice and text.
 
-🌐 **Live Demo:** https://boloai-web.onrender.com/
+**[Live demo](https://boloai-web.onrender.com/) · [Source code](https://github.com/rajsalonia/BoloAI) · [Setup](#quickstart--setup) · [Integration status](#truthful-provider-status)**
+
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?logo=fastapi&logoColor=white) ![Agentic AI](https://img.shields.io/badge/AI-Tool_Orchestration-5B21B6)
+
+> [!NOTE]
+> The demo supports fallback/mock adapters. Real telephone calling, paid AI models, STT/TTS, and SMS actions depend on the credentials and provider configuration listed below; a published demo URL does not imply every provider is connected.
 
 ## What BoloAI can do
 
@@ -172,7 +177,7 @@ Test these in the UI via the **1-Click Demo Buttons** or by typing in the simula
 ### 1. Clone & Install Dependencies
 
 ```bash
-git clone https://github.com/17rajsal/BoloAI.git
+git clone https://github.com/rajsalonia/BoloAI.git
 cd BoloAI
 
 # Create virtual environment
@@ -255,3 +260,13 @@ To run a live phone call test when Exotel credentials are configured:
 6. BoloAI answers over the telephone in natural speech.
 
 *Note: In environments without active Exotel telephony credentials, the complete code path and audio streaming framing are fully verified via automated tests and mock doubles (`CODE PATH VERIFIED — LIVE PROVIDER TEST PENDING`).*
+
+---
+
+## Project & Maintainer
+
+- **Repository:** https://github.com/rajsalonia/BoloAI
+- **Demo URL:** https://boloai-web.onrender.com/
+- **Maintainer:** [@rajsalonia](https://github.com/rajsalonia)
+
+For feature evaluation, begin in `DEMO_MODE=true` and review the provider status table before enabling external actions. Keep provider tokens in runtime environment variables, not in commits or screenshots.
